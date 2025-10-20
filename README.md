@@ -34,11 +34,11 @@ I've always been interested in machine learning and computer vision, so I decide
 
 ### **Tech stack**
 
-Python
+* Python
 
-Streamlit - for the web interface
+* Streamlit - for the web interface
 
-Ultralytics YOLO - for object detection
+* Ultralytics YOLO - for object detection
 
-OpenCV - for image processing and blurring
+* OpenCV - for image processing and blurring
 
