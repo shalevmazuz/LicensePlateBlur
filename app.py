@@ -54,7 +54,6 @@ if option == "Image":
 elif option == "Video":
     uploaded_file = st.file_uploader("Upload a video", type=["mp4", "avi", "mov"])
     if uploaded_file is not None:
-        # Save to temp file
         tfile = tempfile.NamedTemporaryFile(delete=False) 
         tfile.write(uploaded_file.read())
         
@@ -76,3 +75,4 @@ elif option == "Video":
         st.video("output.mp4")
         with open("output.mp4", "rb") as file:
             st.download_button("Download Blurred Video", file, "blurred_video.mp4")
+
